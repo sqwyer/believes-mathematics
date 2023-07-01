@@ -9,7 +9,7 @@ export const Nav = () => <div className="flex flex-row py-5 justify-between item
     <div className="flex flex-row gap-4 items-center">
         <a className="text-sm font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-75 hidden md:inline-block" href="/#videos">Videos</a>
         {/* <a className="text-sm font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-75" href="/#practice">Practice Problems</a> */}
-        <a className="text-sm font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-75" href="mailto:brockbivens02@gmail.com">Contact Me</a>
+        <a className="text-sm font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-75 hidden md:inline-block" href="mailto:brockbivens02@gmail.com">Contact Me</a>
         <a className="text-3xl font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-75" href="https://www.instagram.com/brock.biv/" rel="nofollow" target="_blank">
             <IoLogoInstagram />
         </a>
