@@ -35,11 +35,11 @@ function App() {
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#12B9C0] z-10" style={{
         clipPath: "polygon(0 56%, 100% 16%, 100% 100%, 0 100%)"
       }}></div>
-      <div className="flex flex-col gap-2 md:gap-4 lg:gap-8 z-20">
-        <h1 className="w-full mx-auto text-center md:text-left md:mx-0 text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold md:w-[500px] xl:w-[600px] 2xl:w-[800px] text-white z-20 selection:bg-[#0fa0a5]" >Learn Calculus, Number Theory, and Algebra</h1>
-        <p className="lg:text-lg font-semibold w-full text-center md:text-left mx-auto md:mx-0 md:w-[374px] text-white z-20 selection:bg-[#0fa0a5]" >I believe that you are capable of any and everything you put your mind to. Take a moment, breathe, and believe.</p>
+      <div className="flex flex-col gap-2 sm:gap-4 md:gap-6 lg:gap-8 z-20">
+        <h1 className="w-full mx-auto text-center md:text-left md:mx-0 text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl font-extrabold md:w-[310px] xl:w-[550px] 2xl:w-[600px] text-white z-20 selection:bg-[#0fa0a5]" >Learn Calculus, Number Theory, and Algebra</h1>
+        <p className="lg:text-lg font-semibold w-full text-center md:text-left mx-auto md:mx-0 md:w-[250px] lg:w-[400px] xl-[600px] text-white z-20 selection:bg-[#0fa0a5]" >I believe that you are capable of any and everything you put your mind to. Take a moment, breathe, and believe.</p>
       </div>
-      <img className="absolute bottom-0 left-0 right-0 w-full h-[65vh] md:h-[50vh] md:w-auto md:left-auto md:right-10 z-30 xl:right-52 select-none " src={hero}></img>
+      <img className="absolute bottom-0 left-0 right-0 w-full h-[65vh] md:h-[50vh] md:w-auto md:left-auto lg:h-[55vh] 2xl:h-[65vh] md:right-5 lg:right-28 z-30 xl:right-48 select-none " src={hero}></img>
     </div>
     <div className="px-10 md:px-24 lg:px-40 xl:px-52 py-10">
       <div className="flex flex-row gap-4 items-baseline">
