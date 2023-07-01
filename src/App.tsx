@@ -31,7 +31,7 @@ function App() {
   
   return <div className="min-h-screen" id="home">
     <Nav />
-    <div className="min-h-screen md:min-h-[70vh] xl:min-h-[80vh] bg-[#0ED0D9] px-10 md:px-24 lg:px-40 xl:px-52 pt-36 md:pt-[25vh] relative">
+    <div className="min-h-[115vh] md:min-h-[70vh] xl:min-h-[80vh] bg-[#0ED0D9] px-10 md:px-24 lg:px-40 xl:px-52 pt-36 md:pt-[25vh] relative">
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#12B9C0] z-10" style={{
         clipPath: "polygon(0 56%, 100% 16%, 100% 100%, 0 100%)"
       }}></div>
